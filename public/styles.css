@@ -1,7 +1,8 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #e58a4a;
-  background-size: cover;
+  background-image: url('pizza.png'); /* Ruta de tu imagen de fondo */
+  background-size: contain;
+  background-repeat: no-repeat;
   margin: 0;
   padding: 0;
   display: flex;
@@ -12,11 +13,11 @@ body {
 }
 
 h1 {
-  color: #fff; 
+  color: #ff3333; /* Cambia el color según tu preferencia, aquí es un tono de naranja */
 }
 
-p {
-  color: #fff; 
+p, li, code {
+  color: #000000; /* Cambia el color a negro */
 }
 
 ul {
